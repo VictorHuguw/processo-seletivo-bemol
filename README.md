@@ -59,3 +59,5 @@ Definimos que a nossa aplicação rodará na porta 4000, então basta ir até o 
 localhost:4000
 
 Para entrar no formulário de cadastro de usuário voce deve clicar em "Criar conta" logo abaixo do botão de fazer login.
+
+![alt text](https://raw.githubusercontent.com/uVictorHuguw/processo-seletivo-bemol/master/tela1.png)
