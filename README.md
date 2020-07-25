@@ -60,4 +60,4 @@ localhost:4000
 
 Para entrar no formulário de cadastro de usuário voce deve clicar em "Criar conta" logo abaixo do botão de fazer login.
 
-![alt text](https://raw.githubusercontent.com/uVictorHuguw/processo-seletivo-bemol/master/tela1.png)
+![alt text](https://raw.githubusercontent.com/VictorHuguw/processo-seletivo-bemol/master/tela1.png)
