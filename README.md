@@ -53,3 +53,9 @@ Agora que temos tudo instalado e configurado, podemos executar o projeto, para i
 ```
 npm start 
 ```
+
+Definimos que a nossa aplicação rodará na porta 4000, então basta ir até o seu navegador e digitar na barra de url o endereco
+
+localhost:4000
+
+Para entrar no formulário de cadastro de usuário voce deve clicar em "Criar conta" logo abaixo do botão de fazer login.
