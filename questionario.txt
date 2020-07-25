@@ -1,0 +1,20 @@
+1. A solução deve ser disponibilizada em Cloud ou On-premise?
+
+    Cloud, visto que possui maior eficiência de custos e facilidade de dimensionamento, além da escalabilidade
+
+2. Considerando a participação de 4 pessoas técnicas para o desenvolvimento dessa solução, responda qual ferramenta acreditas ser apropriada para o controle de
+tarefas da equipe, a ferramenta é ágil?
+
+     A utilização do kanban é mais viável nessa situação por ser uma metodologia de controle eficaz de tarefas e por funcionar como uma ferramenta agil também
+
+3. Você se sente capaz de liderar esta equipe? Por quê ?
+
+     Não me sinto capaz de liderar essa equipe pois apesar das boas qualidades tecnicas não possuo skills relacionados ao gerenciamento de pessoas 
+
+4. Se pudesse sugerir uma melhoria, mudança ou oportunidade. O que seria ?
+
+    A oportunidade de fazer mais testes como esse com maiores frequencias, inclusive adotar como base para contratação de novos colaboradores
+
+5. Acha válido esse desafio para o processo que está participando?
+    Sim, o desafio é bastante interessante e aberto para ser implementado da forma que cada um quiser
+

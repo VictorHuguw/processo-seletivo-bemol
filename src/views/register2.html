@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>Nova conta</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+</head>
+
+<body>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <!DOCTYPE html>
+    <html>
+        
+    <head>
+        <title>Nova conta</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    </head>
+    
+    <body style="background-color: #60a3bc;">
+        <script src="../funcoes/registrarConta.js"></script>
+        <div class="container" >
+            
+            <div class="Home1" >
+                
+                <div class="Title2" >
+                    
+                    <div class="needs-validation" style="background-color: #f8f7fc;    padding: 30px; margin-top: 25px;">
+                        <h3 class="text-center">Nova Conta</h3>
+                        <div class="form-row">
+                            <div class="col-md-12 mb-3 text-dark">
+                                <label for="validationCustom01">Nome</label>
+                                <input type="text" class="form-control" id = "nome" placeholder="Nome"
+                                     />
+                                     <span id="msgNome" style="font-size: 10px;"></span>
+                            </div>
+                            <div class="col-md-12 mb-3 text-dark">
+                                <label for="validationCustom02">E-mail</label>
+                                <input type="email"  class="form-control" id="email" placeholder="Email">
+                                <span id="msgEmail" style="font-size: 10px;"></span>
+            
+                            </div>
+    
+                            <div class="col-md-4 mb-2 text-dark">
+                                <label for="validationCustom02">CPF</label>
+                                <input type="text" maxlength="11" id = "cpf" class="form-control" placeholder="CPF"
+                                     />
+                                <span id="msgCPF" style="font-size: 10px;"></span>
+                            </div>
+                            <div class="col-md-4 mb-2 text-dark">
+                                <label for="validationCustom02">Data de Nascimento</label>
+                                <input type="date" id="nascimento" maxlength="8" class="form-control" placeholder="00/00/0000"
+                                     />
+                            </div>
+                            
+                            <div class="col-md-4 mb-2 text-dark">
+                                <label for="validationCustom02">Telefone</label>
+                                <input type="text" id = "telefone" class="form-control" placeholder="Telefone"
+                                     />
+                            </div>
+            
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-3 mb-3 text-dark" >
+                                <label for="validationCustom05">Cep</label>
+                                <input  type="text" class="form-control" onblur="validarCep()" maxlength="8" id="cep" placeholder="00000000"  />
+                                <span id="msgCEP" style="font-size: 10px;"></span>
+                            </div>
+                            <div class="col-md-3 mb-3 text-dark">
+                                <label for="validationCustom03">Logradouro</label>
+                                <input type="text" class="form-control" id="logradouro" placeholder="Rua"  />
+                                <span id="msgLogradouro" style="font-size: 10px;"></span>
+                            </div>
+                            <div class="col-md-2 mb-3 text-dark">
+                                <label for="validationCustom04">Bairro</label>
+                                <input type="text" class="form-control" id="bairro" placeholder="Bairro"  />
+                                <span id="msgBairro" style="font-size: 10px;"></span>
+                            </div>
+                            <div class="col-md-2 mb-3 text-dark">
+                                <label for="validationCustom04">Celular</label>
+                                <input type="text" maxlength="11" class="form-control" id="celular" placeholder="92000000000"  />
+                                <span id="msgCelular" style="font-size: 10px;"></span>
+                            </div>
+                            <div class="col-md-2 mb-3 text-dark">
+                                <label for="validationCustom04">Numero</label>
+                                <input type="text" maxlength="4" class="form-control" id="numero" placeholder="Numero"  />
+                                
+                            </div>
+                            <div class="col-md-6 mb-3 text-dark" >
+                                <label for="validationCustom05">Complemento</label>
+                                <input type="text" class="form-control" id="complemento" placeholder="Complemento"  />
+            
+                            </div>
+                            <div class="col-md-3 mb-3 text-dark" >
+                                <label for="validationCustom05">Cidade</label>
+                                <input type="text" class="form-control" id="cidade" placeholder="Cidade"  />
+                                <span id="msgCidade" style="font-size: 10px;"></span>
+                            </div>
+                            <div class="col-md-2 mb-3 text-dark" >
+                                <label for="validationCustom05">Estado</label>
+                                <input type="text" class="form-control" id="estado" placeholder="UF"  />
+                                <span id="msgEstado" style="font-size: 10px;"></span>
+                            </div>
+                            
+                            <div class="col-md-6 mb-8 text-dark" >
+                                <label for="validationCustom05">Senha</label>
+                                <input type="password" class="form-control" id="senha" placeholder=""  />
+                                <span id="msgSenha" style="font-size: 10px;"></span>
+                            </div>
+                            
+                            <div class="col-md-6 mb-3 text-dark" >
+                                <label for="validationCustom05">Confirmação da senha</label>
+                                <input type="password" class="form-control" id="confirmacaoSenha" placeholder=""  />
+                                <span id="msgConfirmacaoSenha"></span>
+                            </div>
+                        </div>
+                        <div class="text-center" style="margin-top: 15px;">
+                            <button type="button" class="btn btn-primary btn-lg" onclick="registrarConta()" style="width: 250px;
+                            height: 46px;">Enviar</button>
+                        </div>
+                        
+                    </div>
+            
+                </div>
+            
+            </div>
+        </div>
+    
+    </body>
+    </html>
+    
+
+
+
