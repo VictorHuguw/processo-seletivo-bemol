@@ -32,3 +32,30 @@ var connection = require('knex')({
 
 ```
 
+## Instalando dependências do projeto 
+
+Dentro da pasta da aplicação execute o comando abaixo para instalar as dependências do projeto
+
+```
+npm install
+```
+
+## Criados as tabelas do banco de dados
+
+Deixei um script com o código sql para criar o banco de dados utilizado, você deve baixar o script e executar no seu SGBD ou copiar as linhas e executalas para criar o nosso banco de dados e a tabela necessária para a aplicação
+
+O arquivo está localizado na pasta raiz do projeto, arquivo tabela.sql
+
+## Executando o projeto
+
+Agora que temos tudo instalado e configurado, podemos executar o projeto, para isso voce deve executar o seguinte comando aplicacao
+
+```
+npm start 
+```
+
+Definimos que a nossa aplicação rodará na porta 4000, então basta ir até o seu navegador e digitar na barra de url o endereco
+
+localhost:4000
+
+Para entrar no formulário de cadastro de usuário voce deve clicar em "Criar conta" logo abaixo do botão de fazer login.
